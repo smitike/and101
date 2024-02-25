@@ -49,9 +49,9 @@
             <TextView
                 android:id="@+id/profile_bio"
                 android:layout_width="300dp"
-                android:layout_height="100dp"
+                android:layout_height="60dp"
                 android:layout_marginTop="10dp"
-
+                android:background="@color/brown"
                 android:text="@string/profile_bio_text"
                 android:textSize="16sp"
                 android:textColor="@color/white"
@@ -66,7 +66,7 @@
                 android:layout_marginTop="50dp"
                 android:text="@string/profile_hobby_header_text"
                 android:textColor="@color/black"
-                android:background="@color/cardview_light_background"
+                android:background="@color/white"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
