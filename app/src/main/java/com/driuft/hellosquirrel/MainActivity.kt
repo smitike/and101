@@ -1,13 +1,15 @@
 package com.driuft.hellosquirrel
 
-import android.os.Build
+import android.graphics.Color
 import android.os.Bundle
-import android.view.WindowInsets
-import android.view.WindowManager
+import android.text.SpannableString
+import android.text.Spanned
+import android.text.style.BackgroundColorSpan
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.content.res.AppCompatResources
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         profileImage = findViewById(R.id.profile_image)
         profileName = findViewById(R.id.profile_name)
         profileBio = findViewById(R.id.profile_bio)
+
     }
 
     private fun setupProfile() {
@@ -35,7 +38,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun configureImage() {
-        profileImage.setImageDrawable(AppCompatResources.getDrawable(this, R.drawable.ic_launcher_foreground))
+        profileImage.setImageDrawable(AppCompatResources.getDrawable(this, R.drawable.avatar_14))
     }
 
     private fun configureName() {
@@ -43,6 +46,7 @@ class MainActivity : AppCompatActivity() {
             R.string.full_name,
             getString(R.string.first_name),
             getString(R.string.last_name)
+
         )
     }
 }
