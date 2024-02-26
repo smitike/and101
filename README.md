@@ -8,7 +8,7 @@ Time spent: **5** hours spent in total
 
 ## Summary
 
-**Profile Card** is an android app that recreates the common "Hello, World!", to introduce ourselves to the neighborhood squirrel 🐿.  **The app is displays profile picture, name, a short bio, and three hobbies that simply introduces the person.**
+**Profile Card** is an Android app that recreates the common "Hello, World!", to introduce ourselves to the neighborhood squirrel 🐿.  **The app displays a profile picture, name, a short bio, and three hobbies that simply introduce the person.**
 
 If I had to describe this project in three (3) emojis, they would be: **😀 🖐🏽 🤓**
 
@@ -34,6 +34,7 @@ The following EXTRA features are implemented:
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
+
 ![and101_project1](https://github.com/smitike/and101-project1-starter/assets/122339212/6e7f8936-b0db-47c1-b4ac-dfa7b336cfbd)
 
 GIF created with **imgflip**
