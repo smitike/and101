@@ -34,18 +34,17 @@ The following EXTRA features are implemented:
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
+![and101_project1](https://github.com/smitike/and101-project1-starter/assets/122339212/6e7f8936-b0db-47c1-b4ac-dfa7b336cfbd)
 
-<img src='file:///Users/selamm/Downloads/codepath_project1.gif' title='Video Demo' width='' alt='Video Demo' />
-
-GIF created with **FreeConverter**
+GIF created with **imgflip**
 
 ## Notes
 
-
+The app is created on Android Studio using Kotlin. I learned how to create the UI on Android Studio while editing the layout which seemed straightforward to edit. However, I had trouble changing the color because I couldn't find different colors and I thought Android Studio had limited colors. Then, I started looking through the other files and I found themes.xml where all the colors added were. Unlike other platforms, I found out that we need to add colors we want to use.
 
 ## License
 
-Copyright **yyyy** **your name**
+Copyright **2024** **Selam Mitike**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
